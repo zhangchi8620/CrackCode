@@ -1,0 +1,4 @@
+		int mask1 = 0xFF >> 2;
+		System.out.println(Integer.toBinaryString(mask1));
+		int r = 0x00 | (byte)mask1;
+		System.out.println(Integer.toBinaryString(r));
